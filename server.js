@@ -2,10 +2,10 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 require("dotenv").config();
-const bookingRoutes = require("./routes/bookingRoutes");
-const menuRoutes = require("./routes/menuRoutes");
-const menuCategoryRoutes = require("./routes/menuCategoryRoutes");
-const connectDB = require("./db/db");
+const bookingRoutes = require("./src/routes/bookingRoutes");
+const menuRoutes = require("./src/routes/menuRoutes");
+const menuCategoryRoutes = require("./src/routes/menuCategoryRoutes");
+const connectDB = require("./src/db/db");
 
 const app = express();
 
